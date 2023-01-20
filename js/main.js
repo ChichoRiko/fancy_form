@@ -77,7 +77,7 @@ function hideQuestion() {
   inputGroup.style.opacity = 0;
   inputLabel.style.marginLeft = 0;
   inputProgress.style.width = 0;
-  inputProgress.style.transition = none;
+  inputProgress.style.transition = 'none';
   inputGroup.style.border = null;
 }
 //!Transform to create shake motion
