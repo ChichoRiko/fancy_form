@@ -1,12 +1,12 @@
 @import url("http://fonts.googleapis.com/css?family=Pacifico|Roboto");
 body {
   background: #26b58fdd;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0; }
 
 h1.logo {
   color: black;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   font-size: 4em; }
 
 #container {
@@ -81,7 +81,7 @@ form-box.close {
     outline: 0;
     background: transparent;
     box-shadow: none;
-    font-family: 'Trebuchet MS', Arial, sans-serif; }
+    font-family: "Trebuchet MS", Arial, sans-serif; }
   #input-group #input-label {
     position: absolute;
     pointer-events: none;
