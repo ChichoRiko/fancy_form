@@ -1,0 +1,43 @@
+@import url("http://fonts.googleapis.com/css?family=Pacifico|Roboto");
+body {
+  background: #4838a2;
+  font-family: 'Roboto', sans-serif;
+  margin: 0; }
+
+h1.logo {
+  color: black;
+  font-family: 'Pacifico', cursive;
+  font-size: 4em; }
+
+#container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center; }
+
+#pic-logo {
+  border-radius: 100%;
+  opacity: 0.95;
+  width: 50px;
+  height: 50px;
+  margin-top: 50vh; }
+  #pic-logo:hover {
+    transition-duration: 1s;
+    rotate: 360deg; }
+
+#form-box {
+  background: #fff;
+  position: relative;
+  width: 600px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.1), 0 6px 10px 5px rgba(0, 0, 0, 0.1), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.1s ease-in-out; }
+
+form-box.close {
+  width: 0;
+  padding: 0;
+  overflow: hidden;
+  transition: 0.8s ease-in-out;
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0); }
